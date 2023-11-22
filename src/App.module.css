@@ -1,0 +1,90 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    background-image: url(sourse/image/background/redLight.svg), url(sourse/image/background/purpleLight.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, center top;
+    overflow: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.svgContainer {
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.purpleBall {
+    position: absolute;
+    right: 10px;
+}
+
+.redBallBig {
+    position: absolute;
+    top: 80px;
+}
+
+.redBallSmall {
+    position: absolute;
+    right: 70px;
+    top: 500px;
+}
+
+.header {
+    margin: 50px auto;
+    max-width: 1140px;
+    width: 80%;
+    height: 73px;
+    display: flex;
+}
+
+.logo {
+    height: 24px;
+}
+.slogan{
+    font-size: 10px;
+    font-weight: 300;
+    width: 140px;
+    height: 24px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+    display: flex;
+    margin: 0;
+}
+
+.list li {
+    cursor: pointer;
+    margin: 0 10px;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.list li:hover {
+    border-bottom: 1px white solid;
+}
+
+.numberPhone {
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.link{
+    margin-left: auto;
+}
+
+.link a {
+    margin: 10px;
+}
+
+
