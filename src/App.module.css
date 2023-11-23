@@ -9,6 +9,8 @@
     background-position: left center, center top;
     overflow: auto;
     font-family: 'Inter', sans-serif;
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
 
 .svgContainer {
@@ -44,7 +46,8 @@
 .logo {
     height: 24px;
 }
-.slogan{
+
+.slogan {
     font-size: 10px;
     font-weight: 300;
     width: 140px;
@@ -67,7 +70,7 @@
 }
 
 .list li:hover {
-    border-bottom: 1px white solid;
+    text-decoration: underline
 }
 
 .numberPhone {
@@ -79,12 +82,88 @@
     font-weight: 500;
 }
 
-.link{
+.link {
     margin-left: auto;
 }
 
 .link a {
     margin: 10px;
 }
+
+.content {
+    /*border: 1px red solid;*/
+    flex: 1 0 auto;
+}
+
+.footer {
+    height: 315px;
+    max-width: 1140px;
+    width: 100%;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footerTitle {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #656566;
+}
+
+.blockFooter {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.blockFooter a {
+    text-decoration: none;
+    margin-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E4E5EA;
+}
+
+.blockFooter > a:hover {
+    text-decoration: underline;
+}
+
+.contactBlock {
+    text-align: right;
+    margin-left: auto;
+}
+
+.menuBlock {
+    margin: 0 auto;
+}
+
+.blockMenuList {
+    height: 140px;
+    width: 500px;
+}
+
+.socialNetworkList {
+    margin-top: 8px;
+}
+
+.socialNetwork {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.confidentiality {
+    margin-top: 100px;
+}
+
+.confidentiality div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #E4E5EA;
+}
+
 
 
