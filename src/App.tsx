@@ -9,7 +9,7 @@ import phone from "./sourse/image/link/phone.svg"
 import whatsapp from "./sourse/image/link/whatsapp.svg"
 
 
-function App() {
+export const App = () => {
     return (
         <div className={styles.container}>
             <div className={styles.svgContainer}>
@@ -37,8 +37,35 @@ function App() {
                 </div>
             </header>
             <div className={styles.content}>
-                в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в
-                <br/>в<br/>в<br/>в<br/>в<br/>в<br/>в<br/>в
+                <div className={styles.contentLeft}>
+                    <div className={styles.profitMore}>Зарабатывайте больше</div>
+                    <div className={styles.nameCompany}>с WELBEX</div>
+                    <div className={styles.whatWeDo}>Развиваем и контролируем продажи за вас</div>
+                </div>
+                <div className={styles.contentRight}>
+                    <div className={styles.whatWeGive}>
+                        <span className={styles.colorText}>Вместе с </span>БЕСПЛАТНОЙ
+                        КОНСУЛЬТАЦИЕЙ <span className={styles.colorText}>мы дарим:</span></div>
+                    <div className={styles.giftBlock}>
+                        <div className={styles.giftBlockItem}>
+                            <div className={styles.titleGiftBlock}>ВИДЖЕТЫ</div>
+                            <div className={styles.descriptionGiftBlock}>30 готовых решений</div>
+                        </div>
+                        <div className={styles.giftBlockItem}>
+                            <div className={styles.titleGiftBlock}>SKYPE АУДИТ</div>
+                            <div className={styles.descriptionGiftBlock}>отдела продаж и CRM системы</div>
+                        </div>
+                        <div className={styles.giftBlockItem}>
+                            <div className={styles.titleGiftBlock}>DASHBOARD</div>
+                            <div className={styles.descriptionGiftBlock}>с показателями вашего бизнеса</div>
+                        </div>
+                        <div className={styles.giftBlockItem}>
+                            <div className={styles.titleGiftBlock}>35 ДНЕЙ</div>
+                            <div className={styles.descriptionGiftBlock}>использования CRM</div>
+                        </div>
+                    </div>
+                    <button className={styles.btn}>Получить консультацию</button>
+                </div>
             </div>
             <footer className={styles.footer}>
                 <div>
@@ -75,14 +102,12 @@ function App() {
                         <a href={""}>Москва, Путевой проезд 3с1, к 902</a>
                     </div>
                     <div className={styles.confidentiality}>
-                        <div>©WELBEX 2022. Все права защищены.</div>
-                        <div>Политика конфиденциальности</div>
+                        <div><a href={""}>©WELBEX 2022. Все права защищены.</a></div>
+                        <div><a href={""}>Политика конфиденциальности</a></div>
                     </div>
                 </div>
 
             </footer>
         </div>
     );
-}
-
-export default App;
+};

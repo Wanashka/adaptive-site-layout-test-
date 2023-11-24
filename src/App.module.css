@@ -1,7 +1,6 @@
 .container {
     margin: 0;
     padding: 0;
-    background-color: black;
     color: white;
     height: 100vh;
     background-image: url(sourse/image/background/redLight.svg), url(sourse/image/background/purpleLight.svg);
@@ -9,8 +8,7 @@
     background-position: left center, center top;
     overflow: auto;
     font-family: 'Inter', sans-serif;
-    /*display: flex;*/
-    /*flex-direction: column;*/
+    background-color: #0E1014;
 }
 
 .svgContainer {
@@ -36,9 +34,9 @@
 }
 
 .header {
-    margin: 50px auto;
+    margin: 50px auto 100px;
     max-width: 1140px;
-    width: 80%;
+    width: 100%;
     height: 73px;
     display: flex;
 }
@@ -88,11 +86,6 @@
 
 .link a {
     margin: 10px;
-}
-
-.content {
-    /*border: 1px red solid;*/
-    flex: 1 0 auto;
 }
 
 .footer {
@@ -152,18 +145,129 @@
 .socialNetwork {
     margin-left: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .confidentiality {
     margin-top: 100px;
 }
 
-.confidentiality div {
+.confidentiality a {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #E4E5EA;
+    text-decoration: none;
 }
+
+.confidentiality a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contentLeft {
+    width: 50%;
+    margin-right: auto;
+}
+
+.profitMore {
+    width: 362px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.nameCompany {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #FCB045, #FF3F78);
+    display: inline-block;
+}
+
+.whatWeDo {
+    margin-top: 50px;
+    width: 275px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E4E5EA;
+}
+
+.contentRight {
+    width: 50%;
+    margin-left: auto;
+    height: 100%;
+    text-align: right;
+}
+
+.whatWeGive {
+    width: 291px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: auto;
+    margin-top: 15px;
+    text-align: right;
+
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #FCB045, #FD1D1D);
+    display: inline-block;
+}
+
+.colorText {
+    color: white;
+}
+
+.giftBlock {
+    height: 250px;
+    margin-left: auto;
+    margin-top: 50px;
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.giftBlockItem {
+    width: 140px;
+    height: 100px;
+    margin-left: auto;
+}
+
+.titleGiftBlock {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.descriptionGiftBlock {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn {
+    width: 262px;
+    height: 61px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background: #4077F3;
+    color: #E4E5EA;
+}
+
 
 
 
