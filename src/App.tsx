@@ -23,11 +23,11 @@ export const App = () => {
                     <div className={styles.slogan}>крупный интегратор CRM в Росcии и ещё 8 странах</div>
                 </div>
                 <ul className={styles.list}>
-                    <li>Услуги</li>
-                    <li>Виджеты</li>
-                    <li>Интеграции</li>
-                    <li>Кейсы</li>
-                    <li>Сертификаты</li>
+                    <li className={styles.listItem}>Услуги</li>
+                    <li className={styles.listItem}>Виджеты</li>
+                    <li className={styles.listItem}>Интеграции</li>
+                    <li className={styles.listItem}>Кейсы</li>
+                    <li className={`${styles.listItem} ${styles.listCertificate}`}>Сертификаты</li>
                 </ul>
                 <div className={styles.link}>
                     <a href="tel:+7 555 555-55-55" className={styles.numberPhone}>+7 555 555-55-55</a>
@@ -44,23 +44,25 @@ export const App = () => {
                 </div>
                 <div className={styles.contentRight}>
                     <div className={styles.whatWeGive}>
-                        <span className={styles.colorText}>Вместе с </span>БЕСПЛАТНОЙ
-                        КОНСУЛЬТАЦИЕЙ <span className={styles.colorText}>мы дарим:</span></div>
+                        <span className={styles.colorText}>Вместе с </span>
+                        <span className={styles.gradientText}>БЕСПЛАТНОЙ КОНСУЛЬТАЦИЕЙ </span>
+                        <span className={styles.colorText}>мы дарим:</span>
+                    </div>
                     <div className={styles.giftBlock}>
                         <div className={styles.giftBlockItem}>
-                            <div className={styles.titleGiftBlock}>ВИДЖЕТЫ</div>
+                            <div className={`${styles.titleGiftBlock} ${styles.titleGiftBlock1}`}/>
                             <div className={styles.descriptionGiftBlock}>30 готовых решений</div>
                         </div>
                         <div className={styles.giftBlockItem}>
-                            <div className={styles.titleGiftBlock}>SKYPE АУДИТ</div>
+                            <div className={`${styles.titleGiftBlock} ${styles.titleGiftBlock2}`}/>
                             <div className={styles.descriptionGiftBlock}>отдела продаж и CRM системы</div>
                         </div>
                         <div className={styles.giftBlockItem}>
-                            <div className={styles.titleGiftBlock}>DASHBOARD</div>
+                            <div className={`${styles.titleGiftBlock} ${styles.titleGiftBlock3}`}/>
                             <div className={styles.descriptionGiftBlock}>с показателями вашего бизнеса</div>
                         </div>
                         <div className={styles.giftBlockItem}>
-                            <div className={styles.titleGiftBlock}>35 ДНЕЙ</div>
+                            <div className={`${styles.titleGiftBlock} ${styles.titleGiftBlock4}`}/>
                             <div className={styles.descriptionGiftBlock}>использования CRM</div>
                         </div>
                     </div>
@@ -69,29 +71,31 @@ export const App = () => {
             </div>
             <footer className={styles.footer}>
                 <div>
-                    <div className={styles.footerTitle}>О компании</div>
+                    <div className={styles.footerTitle}>О КОМПАНИИ</div>
                     <div className={styles.blockFooter}>
                         <a href={""}>Партнёрская программа</a>
                         <a href={""}>Вакансии</a>
                     </div>
                 </div>
                 <div className={styles.menuBlock}>
-                    <div className={styles.footerTitle}>Меню</div>
+                    <div className={styles.footerTitle}>МЕНЮ</div>
                     <div className={`${styles.blockFooter} ${styles.blockMenuList}`}>
                         <a href={""}>Расчёт стоимости</a>
                         <a href={""}>Услуги</a>
                         <a href={""}>Виджеты</a>
                         <a href={""}>Интеграции</a>
                         <a href={""}>Наши клиенты</a>
+
                         <a href={""}>Кейсы</a>
                         <a href={""}>Благодарственные письма</a>
                         <a href={""}>Сертификаты</a>
                         <a href={""}>Блог на Youtube</a>
                         <a href={""}>Вопрос / Ответ</a>
+
                     </div>
                 </div>
                 <div className={styles.contactBlock}>
-                    <div className={styles.footerTitle}>Контакты</div>
+                    <div className={styles.footerTitle}>КОНТАКТЫ</div>
                     <div className={styles.blockFooter}>
                         <a href={""}>+7 555 555-55-55</a>
                         <div className={styles.socialNetworkList}>
