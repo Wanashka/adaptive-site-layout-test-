@@ -141,7 +141,8 @@
     color: #E4E5EA;
 }
 
-.blockFooter > a:hover {
+.blockFooter > a:hover,
+.blockMenuList > div a:hover {
     text-decoration: underline;
 }
 
@@ -320,6 +321,12 @@
     background: #4077F3;
     color: #E4E5EA;
     border: none;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #185bf5;
 }
 
 @media screen and (max-width: 820px) {
