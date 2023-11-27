@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/adaptive-site-layout-test-/static/css/main.65dd1352.css",
+    "main.js": "/adaptive-site-layout-test-/static/js/main.017514b4.js",
+    "static/js/787.2f9ef241.chunk.js": "/adaptive-site-layout-test-/static/js/787.2f9ef241.chunk.js",
+    "static/media/logoWelbex.svg": "/adaptive-site-layout-test-/static/media/logoWelbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/adaptive-site-layout-test-/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/phone.svg": "/adaptive-site-layout-test-/static/media/phone.efdbe6bd3950a854df10750809a40828.svg",
+    "static/media/redBallSmall.svg": "/adaptive-site-layout-test-/static/media/redBallSmall.e0cfd585b5aa004e7899e00ff8c97cf4.svg",
+    "static/media/purpleBall.svg": "/adaptive-site-layout-test-/static/media/purpleBall.5183c75bdfdc477e9148312d22bdcf94.svg",
+    "static/media/redBallBig.svg": "/adaptive-site-layout-test-/static/media/redBallBig.d0944b6e50e80d4994d492177a6b660c.svg",
+    "index.html": "/adaptive-site-layout-test-/index.html",
+    "static/media/purpleLight.svg": "/adaptive-site-layout-test-/static/media/purpleLight.f56cd3688ba443c66ab7.svg",
+    "static/media/redLight.svg": "/adaptive-site-layout-test-/static/media/redLight.3d1d5081f50e92e9bbc9.svg",
+    "static/media/Telegram.svg": "/adaptive-site-layout-test-/static/media/Telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
+    "main.65dd1352.css.map": "/adaptive-site-layout-test-/static/css/main.65dd1352.css.map",
+    "main.017514b4.js.map": "/adaptive-site-layout-test-/static/js/main.017514b4.js.map",
+    "787.2f9ef241.chunk.js.map": "/adaptive-site-layout-test-/static/js/787.2f9ef241.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65dd1352.css",
+    "static/js/main.017514b4.js"
+  ]
+}
