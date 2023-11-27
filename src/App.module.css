@@ -1,6 +1,9 @@
-.container {
+.body {
     margin: 0;
     padding: 0;
+}
+
+.container {
     color: white;
     height: 100vh;
     background-image: url(sourse/image/background/redLight.svg), url(sourse/image/background/purpleLight.svg);
@@ -9,6 +12,7 @@
     overflow: auto;
     font-family: 'Inter', sans-serif;
     background-color: #0E1014;
+    overflow-x: hidden;
 }
 
 .svgContainer {
@@ -35,7 +39,7 @@
 
 .header {
     padding-top: 50px;
-    margin: 0 auto 80px;
+    margin: 0 auto 90px;
     max-width: 1140px;
     width: 100%;
     height: 73px;
@@ -79,8 +83,6 @@
 
 .numberPhone {
     padding-right: 40px;
-    /*display: block;*/
-    /*margin-left: auto;*/
     min-width: 150px;
     width: 100%;
     text-decoration: none;
@@ -110,6 +112,10 @@
     display: flex;
 }
 
+.footer > div {
+    width: 100%;
+}
+
 .footerTitle {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -123,6 +129,7 @@
     display: flex;
     flex-flow: column wrap;
     margin-right: 10px;
+
 }
 
 .blockFooter a {
@@ -143,13 +150,23 @@
     margin-left: auto;
 }
 
-.menuBlock {
-    margin: 0 auto;
+.blockMenuList {
+    min-height: 140px;
+    width: 450px;
+    flex-flow: row nowrap;
 }
 
-.blockMenuList {
-    height: 140px;
-    width: 450px;
+.blockMenuList a {
+    display: block;
+}
+
+.blockMenu1 {
+    display: block;
+    margin-right: 50px;
+}
+
+.blockMenu2 {
+    display: block;
 }
 
 .socialNetworkList {
@@ -178,18 +195,19 @@
     text-decoration: underline;
 }
 
+.confidentiality .privacyPolicy {
+    text-decoration: underline;
+}
+
 .content {
     flex: 1 0 auto;
     max-width: 1140px;
-    width: 100%;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     display: flex;
 }
 
 .contentLeft {
-    width: 50%;
     margin-right: auto;
-    /*border: 1px red solid;*/
 }
 
 .profitMore {
@@ -219,11 +237,9 @@
 }
 
 .contentRight {
-    width: 50%;
     margin-left: auto;
     height: 100%;
     text-align: right;
-    /*border: 1px red solid;*/
 }
 
 .whatWeGive {
@@ -252,18 +268,15 @@
 
 .giftBlock {
     height: 250px;
-    margin-left: auto;
     margin-top: 40px;
-    max-width: 380px;
-    width: 100%;
     display: flex;
     flex-flow: column wrap;
 }
 
 .giftBlockItem {
-    width: 140px;
+    width: auto;
     height: 100px;
-    margin-left: auto;
+    margin-left: 30px;
 }
 
 .titleGiftBlock {
@@ -294,6 +307,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #E4E5EA;
+    margin-left: auto;
+    width: 140px;
 }
 
 .btn {
@@ -307,9 +322,29 @@
     border: none;
 }
 
-@media screen and (max-width: 840px) {
-    .svgContainer {
+@media screen and (max-width: 820px) {
+    .container {
+        background-color: #0E1014;
+        background-position: left center, right top;
+    }
+
+    .purpleBall {
+        position: absolute;
+        top: 280px;
+        right: 80px;
+        filter: blur(5px);
+    }
+
+    .redBallSmall {
         display: none;
+    }
+
+    .redBallBig {
+        position: absolute;
+        left: 30px;
+        top: 460px;
+        width: 50px;
+        filter: blur(5px);
     }
 
     .header {
@@ -317,6 +352,7 @@
         height: 55px;
         padding-top: 0;
         align-items: center;
+        margin: 0 auto 40px;
     }
 
     .blockLogo {
@@ -342,33 +378,42 @@
     }
 
     .content {
-        /*width: 100%;*/
         display: block;
-        /*margin-left: 15px;*/
+        max-width: 480px;
     }
 
     .contentLeft {
-        width: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
-    .profitMore{
+    .profitMore {
         width: 100%;
         font-weight: 400;
         font-size: 36px;
     }
-    .nameCompany{
+
+    .nameCompany {
         font-size: 36px;
     }
 
-    .contentRight {
+    .whatWeDo {
         width: 100%;
-        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .contentRight {
         text-align: left;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .whatWeGive {
+        margin-top: 45px;
+        margin-bottom: 20px;
         margin-right: auto;
         text-align: left;
+        width: 100%;
     }
 
     .gradientText {
@@ -376,14 +421,14 @@
     }
 
     .giftBlock {
-        margin-left: 0;
+        margin: 0 auto 60px;
         height: 70px;
-        width: 280px;
+        width: 100%;
     }
 
     .giftBlockItem {
         margin-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
         height: auto;
     }
 
@@ -427,30 +472,56 @@
     }
 
     .footer {
-        width: 100%;
         display: block;
         background-color: #0E1014;
         height: auto;
-        padding-top: 10px;
-        /*margin: auto 0;*/
+        padding-top: 40px;
+    }
+
+    .footerTitle {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer > div {
+        max-width: 480px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     .blockFooter a {
-        word-wrap: break-word;
-    }
-
-    .menuBlock {
-        width: 100%;
-        /*border: 1px red solid;*/
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 
     .blockMenuList {
         width: 100%;
     }
 
+    .blockMenu1 {
+        margin-right: 45px;
+    }
+
     .contactBlock {
-        /*margin-left: 0;*/
         text-align: left;
+    }
+
+    .socialNetworkList {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .socialNetwork {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .confidentiality {
+        margin-top: 50px;
+        padding-bottom: 20px;
     }
 }
 

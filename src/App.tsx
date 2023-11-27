@@ -80,18 +80,20 @@ export const App = () => {
                 <div className={styles.menuBlock}>
                     <div className={styles.footerTitle}>МЕНЮ</div>
                     <div className={`${styles.blockFooter} ${styles.blockMenuList}`}>
-                        <a href={""}>Расчёт стоимости</a>
-                        <a href={""}>Услуги</a>
-                        <a href={""}>Виджеты</a>
-                        <a href={""}>Интеграции</a>
-                        <a href={""}>Наши клиенты</a>
-
-                        <a href={""}>Кейсы</a>
-                        <a href={""}>Благодарственные письма</a>
-                        <a href={""}>Сертификаты</a>
-                        <a href={""}>Блог на Youtube</a>
-                        <a href={""}>Вопрос / Ответ</a>
-
+                        <div className={styles.blockMenu1}>
+                            <a href={""}>Расчёт стоимости</a>
+                            <a href={""}>Услуги</a>
+                            <a href={""}>Виджеты</a>
+                            <a href={""}>Интеграции</a>
+                            <a href={""}>Наши клиенты</a>
+                        </div>
+                        <div className={styles.blockMenu2}>
+                            <a href={""}>Кейсы</a>
+                            <a href={""}>Благодарственные письма</a>
+                            <a href={""}>Сертификаты</a>
+                            <a href={""}>Блог на Youtube</a>
+                            <a href={""}>Вопрос / Ответ</a>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.contactBlock}>
@@ -107,7 +109,7 @@ export const App = () => {
                     </div>
                     <div className={styles.confidentiality}>
                         <div><a href={""}>©WELBEX 2022. Все права защищены.</a></div>
-                        <div><a href={""}>Политика конфиденциальности</a></div>
+                        <div><a href={""} className={styles.privacyPolicy}>Политика конфиденциальности</a></div>
                     </div>
                 </div>
 
