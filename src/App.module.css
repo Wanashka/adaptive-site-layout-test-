@@ -13,6 +13,8 @@
     font-family: 'Inter', sans-serif;
     background-color: #0E1014;
     overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .svgContainer {
@@ -333,6 +335,8 @@
     .container {
         background-color: #0E1014;
         background-position: left center, right top;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .purpleBall {
