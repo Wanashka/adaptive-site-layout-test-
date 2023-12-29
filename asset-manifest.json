@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adaptive-site-layout-test-/static/css/main.65dd1352.css",
+    "main.css": "/adaptive-site-layout-test-/static/css/main.999b16a5.css",
     "main.js": "/adaptive-site-layout-test-/static/js/main.017514b4.js",
     "static/js/787.2f9ef241.chunk.js": "/adaptive-site-layout-test-/static/js/787.2f9ef241.chunk.js",
     "static/media/logoWelbex.svg": "/adaptive-site-layout-test-/static/media/logoWelbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
@@ -13,12 +13,12 @@
     "static/media/purpleLight.svg": "/adaptive-site-layout-test-/static/media/purpleLight.f56cd3688ba443c66ab7.svg",
     "static/media/redLight.svg": "/adaptive-site-layout-test-/static/media/redLight.3d1d5081f50e92e9bbc9.svg",
     "static/media/Telegram.svg": "/adaptive-site-layout-test-/static/media/Telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
-    "main.65dd1352.css.map": "/adaptive-site-layout-test-/static/css/main.65dd1352.css.map",
+    "main.999b16a5.css.map": "/adaptive-site-layout-test-/static/css/main.999b16a5.css.map",
     "main.017514b4.js.map": "/adaptive-site-layout-test-/static/js/main.017514b4.js.map",
     "787.2f9ef241.chunk.js.map": "/adaptive-site-layout-test-/static/js/787.2f9ef241.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65dd1352.css",
+    "static/css/main.999b16a5.css",
     "static/js/main.017514b4.js"
   ]
 }
